@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="../assets/css/styleCatalogos.css">
+    <link href="../assets/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script src="../assets/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/fwslider.css" media="all">
+    <script src="../assets/js/jquery-ui.min.js"></script>
+    <script src="../assets/js/fwslider.js"></script>
+
+   
+</head>
+<body style="background-image: url('../assets/images/background/mesa.jpeg'); background-size: cover;">
+  <div class="collapse navbar-collapse" id="navbar-menu">
+    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+        <li><a href="../index.html" style="color: white;" >Home</a></li>                    
+        <li><a href="#about">About</a></li>                    
+        <li><a href="#service">Services</a></li>                    
+        <li><a href="#portfolio">Catalogo</a></li>                                        
+        <li><a href="#map">Map</a></li>                    
+        <li><a href="#contact">Contacto</a></li>
+        <li id="usuario" class="nav dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <span id="nombreU" class="hidden-xs"></span>
+            </a>
+            <ul class="dropdown-menu">
+            <!-- User image -->
+            <li class="user-header">
+                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                <p>
+                Alexander Pierce - Web Developer
+                <small>Member since Nov. 2012</small>
+                </p>
+            </li>
+            <!-- Menu Body -->
+            <li class="user-body">
+                <div class="row">
+                <div class="col-xs-4 text-center">
+                    <a href="#">Followers</a>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <a href="#">Sales</a>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <a href="#">Friends</a>
+                </div>
+                </div>
+                <!-- /.row -->
+            </li>
+            <!-- Menu Footer-->
+            <li class="user-footer">
+                <div class="pull-left">
+                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <div class="pull-right">
+                <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+            </li>
+            </ul>
+        </li>  
+    </ul>
+</div><!-- /.navbar-collapse -->
+    <div class="features">
+		<div class="container">
+			<h3 class="m_3">Catalogo</h3>
+			<div class="close_but"><i class="close1"> </i></div>
+			  <div id="grilla" class="row">
+				<p  id="empty" class="text-center">No hay Productos para mostrar...</p>
+			</div>
+		 </div>
+	    </div>
+
+
+        <!--Scripts-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="../assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script type="module" src="../Controllers/cafeteria.js"></script>   
+</body>
+</html>
